@@ -41,6 +41,21 @@ namespace LineComparisonProblem
             {
                 Console.WriteLine("The length of two lines are not equal");
             }
+
+            // Check lines are equal greater or lesser
+
+            if (length1 == length2)
+            {
+                Console.WriteLine("The length of two lines are equal");
+            }
+            else if (length1 < length2)
+            {
+                Console.WriteLine("The length of two lines are lesser");
+            }
+            else if (length1 > length2)
+            {
+                Console.WriteLine("The length of two lines are greater");
+            }
         }
     }
 }
